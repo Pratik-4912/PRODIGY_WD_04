@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+header {
+  background-color: #161b22;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #58a6ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #c9d1d9;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #58a6ff;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home .content {
+  max-width: 500px;
+}
+
+.home h2 {
+  font-size: 2rem;
+  color: #58a6ff;
+}
+
+.home button {
+  padding: 0.6rem 1.2rem;
+  background-color: #238636;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: #2ea043;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-top: 1rem;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.about, .projects {
+  background-color: #161b22;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.about p, .projects ul {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.projects ul li {
+  margin-bottom: 0.8rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0d1117;
+  border-top: 1px solid #30363d;
+}
